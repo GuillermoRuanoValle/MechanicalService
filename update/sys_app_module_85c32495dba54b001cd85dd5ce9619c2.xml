@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Mechanical services">004b140bdb51c700b7495df3ce9619e4</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage display_value="catalog_mechanical_services">4f76a084db8243001cd85dd5ce961918</homepage>
+        <image/>
+        <link_type>HOMEPAGE</link_type>
+        <map_page/>
+        <mobile_title>New service</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_agsn_mechanical_mechanical_service</name>
+        <order>10</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>guillermo.ruano</sys_created_by>
+        <sys_created_on>2017-09-30 15:38:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85c32495dba54b001cd85dd5ce9619c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_agsn_mechanical_mechanical_service</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mechanical services" source="x_agsn_mechanical">8bb8504bdb51c700b7495df3ce961912</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mechanical services">8bb8504bdb51c700b7495df3ce961912</sys_scope>
+        <sys_update_name>sys_app_module_85c32495dba54b001cd85dd5ce9619c2</sys_update_name>
+        <sys_updated_by>guillermo.ruano</sys_updated_by>
+        <sys_updated_on>2017-10-23 14:40:29</sys_updated_on>
+        <timeline_page/>
+        <title>New service</title>
+        <u_visibility/>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Determina grupo de asignación dependiendo de la selección de "service type"</description>
+        <field>service_type</field>
+        <global>true</global>
+        <messages/>
+        <name>MEC determina grupo de asignación</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading) {
+      return;
+   }
+
+    //El presente clien script determina dependiendo del service type un assignment group
+	//defimos variables
+	
+	var service_type = g_form.getValue('service_type');
+		
+	
+	//evaluamos el service type
+	
+	if(service_type == 'Motor Services')
+	{
+		g_form.setValue('assignment_group', "341f26afdbd9c700b7495df3ce9619fa");
+	}
+	
+	if(service_type == 'Electrical Services')
+	{
+		g_form.setValue('assignment_group', "f3bf66afdbd9c700b7495df3ce9619bf");
+	}
+	
+	if(service_type == 'Body Services')
+	{
+		g_form.setValue('assignment_group', "f2107aafdbd9c700b7495df3ce9619d8");
+	}
+	
+	if(service_type == '')
+	{
+	     g_form.clearValue('assignment_group');
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>guillermo.ruano</sys_created_by>
+        <sys_created_on>2017-10-21 14:19:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7bad880db8243001cd85dd5ce9619d8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>MEC determina grupo de asignación</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mechanical services" source="x_agsn_mechanical">8bb8504bdb51c700b7495df3ce961912</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mechanical services">8bb8504bdb51c700b7495df3ce961912</sys_scope>
+        <sys_update_name>sys_script_client_f7bad880db8243001cd85dd5ce9619d8</sys_update_name>
+        <sys_updated_by>guillermo.ruano</sys_updated_by>
+        <sys_updated_on>2017-10-21 14:40:50</sys_updated_on>
+        <table>x_agsn_mechanical_mechanical_service</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

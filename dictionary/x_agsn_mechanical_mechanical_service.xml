@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Mechanical service" max_length="40" name="x_agsn_mechanical_mechanical_service" sizeclass="7" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service type" mandatory="true" max_length="40" name="service_type" type="string">
+            <choice>
+                <element label="Motor Services" sequence="0" value="Motor Services"/>
+                <element label="Electrical Services" sequence="1" value="Electrical Services"/>
+                <element label="Body Services" sequence="2" value="Body Services"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="service_type" dependent_on_field="service_type" label="Sub Service Type" mandatory="true" max_length="40" name="sub_service_type" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Motor Services" label="Ajuste de tiempo" value="Ajuste de tiempo"/>
+                <element dependent_value="Motor Services" label="Cambio de bujias" value="Cambio de bujias"/>
+                <element dependent_value="Electrical Services" label="Cambio de Silvines" value="Cambio de Silvines"/>
+                <element dependent_value="Body Services" label="Enderezado de puerta" value="Enderezado de puerta"/>
+                <element dependent_value="Motor Services" label="Other" value="Other"/>
+                <element dependent_value="Motor Services" label="Rectificación pistones" value="Rectificación pistones"/>
+                <element dependent_value="Body Services" label="Retoque de pintura" value="Retoque de pintura"/>
+                <element dependent_value="Electrical Services" label="Revision de cableado" value="Revision de cableado"/>
+                <element dependent_value="Electrical Services" label="Revision de computadora" value="Revision de computadora"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle brand" mandatory="true" max_length="40" name="vehicle_brand" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle ID" mandatory="true" max_length="40" name="vehicle_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle model" mandatory="true" max_length="40" name="vehicle_model" type="string"/>
+    </element>
+</database>

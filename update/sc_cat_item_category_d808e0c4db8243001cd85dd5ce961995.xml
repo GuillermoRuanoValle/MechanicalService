@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Lavado de motor">8da760c4db8243001cd85dd5ce9619b2</sc_cat_item>
+        <sc_category display_value="Motor Services">a1962484db8243001cd85dd5ce96196c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>guillermo.ruano</sys_created_by>
+        <sys_created_on>2017-10-21 15:14:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d808e0c4db8243001cd85dd5ce961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Motor Services.Motor cleaning</sys_name>
+        <sys_package display_value="Mechanical services" source="x_agsn_mechanical">8bb8504bdb51c700b7495df3ce961912</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mechanical services">8bb8504bdb51c700b7495df3ce961912</sys_scope>
+        <sys_update_name>sc_cat_item_category_d808e0c4db8243001cd85dd5ce961995</sys_update_name>
+        <sys_updated_by>guillermo.ruano</sys_updated_by>
+        <sys_updated_on>2017-10-21 15:14:11</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

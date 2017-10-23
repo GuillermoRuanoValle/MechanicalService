@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_agsn_mechanical_mechanical_service</description>
+        <name>x_agsn_mechanical_mechanical_service.*</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>guillermo.ruano</sys_created_by>
+        <sys_created_on>2017-09-30 15:57:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b098e099dba54b001cd85dd5ce961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_agsn_mechanical_mechanical_service.*</sys_name>
+        <sys_package display_value="Mechanical services" source="x_agsn_mechanical">8bb8504bdb51c700b7495df3ce961912</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mechanical services">8bb8504bdb51c700b7495df3ce961912</sys_scope>
+        <sys_update_name>sys_security_acl_b098e099dba54b001cd85dd5ce961910</sys_update_name>
+        <sys_updated_by>guillermo.ruano</sys_updated_by>
+        <sys_updated_on>2017-09-30 15:57:43</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

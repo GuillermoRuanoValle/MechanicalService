@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description>Mechanical Services</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>guillermo.ruano</sys_created_by>
+        <sys_created_on>2017-10-21 15:07:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5266e084db8243001cd85dd5ce961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mechanical Services</sys_name>
+        <sys_package display_value="Mechanical services" source="x_agsn_mechanical">8bb8504bdb51c700b7495df3ce961912</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Mechanical services">8bb8504bdb51c700b7495df3ce961912</sys_scope>
+        <sys_update_name>sc_catalog_5266e084db8243001cd85dd5ce961942</sys_update_name>
+        <sys_updated_by>guillermo.ruano</sys_updated_by>
+        <sys_updated_on>2017-10-21 15:07:33</sys_updated_on>
+        <title>Mechanical Services</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=5266e084db8243001cd85dd5ce961942"/>
+</record_update>
