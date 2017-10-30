@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_catalog_view_mtom">
-    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
-        <default>true</default>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Cambio de balatas">ba5a5eeddbc20700b7495df3ce9619d1</sc_cat_item>
         <sc_catalog display_value="Mechanical Services">5266e084db8243001cd85dd5ce961942</sc_catalog>
-        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>guillermo.ruano</sys_created_by>
-        <sys_created_on>2017-10-21 15:07:33</sys_created_on>
+        <sys_created_on>2017-10-26 15:25:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c376a084db8243001cd85dd5ce961919</sys_id>
+        <sys_id>479adeaddbc20700b7495df3ce96198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Mechanical Services.catalog_mechanical_services</sys_name>
+        <sys_name>Mechanical Services.Cambio de balatas</sys_name>
         <sys_package display_value="Mechanical services" source="x_agsn_mechanical">8bb8504bdb51c700b7495df3ce961912</sys_package>
         <sys_policy/>
-        <sys_portal_page display_value="Mechanical services">4f76a084db8243001cd85dd5ce961918</sys_portal_page>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Mechanical services">8bb8504bdb51c700b7495df3ce961912</sys_scope>
-        <sys_update_name>sc_catalog_view_mtom_c376a084db8243001cd85dd5ce961919</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_479adeaddbc20700b7495df3ce96198d</sys_update_name>
         <sys_updated_by>guillermo.ruano</sys_updated_by>
-        <sys_updated_on>2017-10-21 15:07:33</sys_updated_on>
-    </sc_catalog_view_mtom>
+        <sys_updated_on>2017-10-26 15:25:49</sys_updated_on>
+    </sc_cat_item_catalog>
 </record_update>

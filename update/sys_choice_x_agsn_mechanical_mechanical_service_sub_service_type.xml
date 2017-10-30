@@ -21,6 +21,25 @@
             <value>Ajuste de tiempo</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Brake services</dependent_value>
+            <element>sub_service_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cambio de balatas</label>
+            <language>en</language>
+            <name>x_agsn_mechanical_mechanical_service</name>
+            <sequence/>
+            <sys_created_by>guillermo.ruano</sys_created_by>
+            <sys_created_on>2017-10-26 15:18:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9b81eaddbc20700b7495df3ce961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>guillermo.ruano</sys_updated_by>
+            <sys_updated_on>2017-10-26 15:18:05</sys_updated_on>
+            <value>Cambio de balatas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Motor Services</dependent_value>
             <element>sub_service_type</element>
             <hint/>
@@ -179,7 +198,7 @@
             <sys_created_by>guillermo.ruano</sys_created_by>
             <sys_created_on>2017-09-29 14:53:47</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>62509b30db614b001cd85dd5ce96196e</sys_id>
+            <sys_id>41a70c0ddbce03001cd85dd5ce96196b</sys_id>
             <sys_mod_count>11</sys_mod_count>
             <sys_name>sub_service_type</sys_name>
             <sys_package display_value="Mechanical services" source="x_agsn_mechanical">8bb8504bdb51c700b7495df3ce961912</sys_package>

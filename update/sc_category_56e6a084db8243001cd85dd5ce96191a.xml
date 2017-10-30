@@ -36,4 +36,40 @@
         <title>Body Services</title>
     </sc_category>
     <sys_translated_text action="delete_multiple" query="documentkey=56e6a084db8243001cd85dd5ce96191a"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#eafeff</average_image_color>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <image_height>78</image_height>
+        <image_width>78</image_width>
+        <size_bytes>2536</size_bytes>
+        <size_compressed>2418</size_compressed>
+        <sys_created_by>guillermo.ruano</sys_created_by>
+        <sys_created_on>2017-10-26 14:32:59</sys_created_on>
+        <sys_id>dd8e06e9db420700b7495df3ce9619f0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>guillermo.ruano</sys_updated_by>
+        <sys_updated_on>2017-10-26 14:32:59</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>56e6a084db8243001cd85dd5ce96191a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="dd8e06e9db420700b7495df3ce9619f0">dd8e06e9db420700b7495df3ce9619f0</sys_attachment>
+        <sys_created_by>guillermo.ruano</sys_created_by>
+        <sys_created_on>2017-10-26 14:32:59</sys_created_on>
+        <sys_id>d18ec2a1db820700b7495df3ce961985</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3212</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="dd8e06e9db420700b7495df3ce9619f0">dd8e06e9db420700b7495df3ce9619f0</sys_attachment>
+        <sys_created_by>guillermo.ruano</sys_created_by>
+        <sys_created_on>2017-10-26 14:32:59</sys_created_on>
+        <sys_id>558ec2a1db820700b7495df3ce961985</sys_id>
+    </sys_attachment_doc>
 </record_update>

@@ -6,6 +6,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+        <category/>
         <collection>x_agsn_mechanical_mechanical_service</collection>
         <condition table="x_agsn_mechanical_mechanical_service">assignment_groupVALCHANGES^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
